@@ -92,7 +92,7 @@
                                 "schema": {
                                     "type": "array",
                                     "items": {
-                                    "$ref": "#/components/schemas/Note"
+                                        "$ref": "#/components/schemas/Note"
                                     }
                                 }
                             },
@@ -100,7 +100,7 @@
                                 "schema": {
                                     "type": "array",
                                     "items": {
-                                    "$ref": "#/components/schemas/Note"
+                                        "$ref": "#/components/schemas/Note"
                                     }
                                 }
                             },
@@ -108,7 +108,7 @@
                                 "schema": {
                                     "type": "array",
                                     "items": {
-                                    "$ref": "#/components/schemas/Note"
+                                        "$ref": "#/components/schemas/Note"
                                     }
                                 }
                             }
@@ -120,7 +120,7 @@
                 "tags": [
                     "Note"
                 ],
-                "body": {
+                "requestBody": {
                     "content": {
                         "application/json-patch+json": {
                             "schema": {
